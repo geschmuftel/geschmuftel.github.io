@@ -141,10 +141,27 @@ li[class*="linkbox"] a:hover{
 
 .list_inline{
   display:flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.list_inline li{
+  margin-right: 1.5rem;
 }
 
 footer img{
   width: 2rem;
+  margin-right: 0.5rem;
+}
+
+footer a{
+  display: flex;
+  align-items: center;;
+}
+
+.about_link img{
+  background-color: #fff;
+  border-radius: 5rem;
 }
 
 @media(max-width:400px){
