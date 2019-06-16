@@ -139,6 +139,14 @@ li[class*="linkbox"] a:hover{
   margin-top: 18px;
 }
 
+.list_inline{
+  display:flex;
+}
+
+footer img{
+  width: 2rem;
+}
+
 @media(max-width:400px){
   h1 small {
    display: block;
